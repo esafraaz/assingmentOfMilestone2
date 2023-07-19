@@ -109,19 +109,16 @@ nav {
 	font-size: 20px;
 	color: white;
 }
-.singin {
+.sign-in {
 	background-image: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 	margin-right: 10px;
 }
-.gorogue {
+.go-rogue {
 	background: #4ec5f7;
 }
 .banner-goat-text .banner-goat-text-btn {
 	margin-top: 40px;
 }
-
-/* banner G.O.A.T end */
-
 /* section banner-online-games start */
 .main-1-text-div {
 	border: 2px solid green;
@@ -154,7 +151,6 @@ h1 {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 10px;
-	/* align-content: center; */
 	justify-content: center;
 }
 .online-games-card div p {
@@ -174,8 +170,6 @@ h1 {
 	color: transparent;
 	-webkit-background-clip: text;
 }
-
-/* section banner-online-games end */
 
 /* Play Instantly,we are gamer section start  */
 .play-instant {
