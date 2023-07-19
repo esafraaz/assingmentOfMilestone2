@@ -1,0 +1,228 @@
+@media screen and (max-width:576px) {
+    
+/* navsection is start  */
+    nav{
+        flex-direction: column;
+    }
+    .nav-icon{
+        justify-content: space-around;
+        margin: 0 auto;
+        gap: 15px;
+        
+    }
+    .nav-bar{
+        width: 100%;
+        flex-direction: column;
+    }
+    .nav-bar a{
+        margin: 20px;
+    }
+    .nav-bar span {
+        width: 65%;
+        margin: 0;
+        justify-content: center;
+        gap: 15px;
+    }
+    /* nav section is done  */
+
+
+/* banner G.O.A.T start */
+    .banner-goat{
+        flex-direction: column-reverse
+    }
+    .banner-goat-text{
+        width: 100%;
+        margin: 10% 0 0 0 ;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+    .banner-goat-text h1 {
+        font-size: 38px;
+    }
+    .banner-goat-text span {
+        font-size: 70px;
+    }
+    .singin,.gorogue{
+        padding: 15px 25px;
+    }
+
+/* banner G.O.A.T end */
+
+
+/* section banner-online-games */
+.banner-online-games h1{
+    font-size: 25px;
+    margin-top: 20%;
+}
+.banner-online-games p{
+    font-size: 10px;
+    
+}
+
+/* Play Instantly,No Downloads  section start */
+
+.play-instant{
+    width: 100%;
+    flex-direction: column;
+}
+.play-instant-text{
+    width: 100%;
+
+}
+.play-instant-text{
+    width: 100%;
+}
+
+.play-instant-text-left{
+    text-align: center ;
+    font-size: smaller;
+}
+.play-instant-text-left h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.play-instant-text-left h1 .no{
+    font-size:28px ;
+}
+.play-instant-img{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.pic-2{
+    width: 80%;
+    margin: -3% 0 0 -1% ;
+}
+
+/* Play Instantly,No Downloads  section end */
+
+
+/* gamaing button start */
+
+.gamming-buton{
+    gap: 0px;
+    padding: 10px;
+    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.gamming-buton div button div {
+    gap: 5px;
+    padding: 0px;
+    
+}
+.gamming-buton div button div img{
+    width: 25px;
+}
+.gamming-buton div button div p{
+    font-size: 10px;
+}
+
+
+
+/* footer section start */
+
+.footer-dspt{
+    padding: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.footer-icon{
+    padding: 15px;
+    column-gap: 45px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-dspt-icon-dwon{
+    margin: 0 0 20px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.footer-p{
+    font-size: small;
+    width: 70%;
+}
+/* footer section end */
+
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width:577px) and (max-width:960px) {
+    .navbar span{
+        font-size: 10px;
+        padding: 5px;
+        
+    }
+    .singin,.gorogue{
+        padding: 15px 25px;
+    }
+
+
+
+    .play-instant{
+        width: 100%;
+        flex-direction: column;
+    }
+    .play-instant-text{
+    width: 100%;
+
+}
+.play-instant-text{
+    width: 100%;
+}
+.play-instant-text-left{
+    text-align: center ;
+}
+.play-instant-text-left h1 {
+    text-align: center;
+}
+.play-instant-img{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.pic-2{
+    width: 90%;
+    margin: -3% 0 0 -1% ;
+}
+
+/* gamaing button start */
+.gamming-buton{
+    gap: 5px;
+    padding: 20px;
+    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.gamming-buton div button div {
+    gap: 10px;
+    padding: 0px;
+    
+}
+.gamming-buton div button div img{
+    width: 35px;
+}
+/* gamaing button end */
+
+
+
+    
+}
