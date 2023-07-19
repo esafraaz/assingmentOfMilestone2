@@ -1,356 +1,329 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:ital,wght@1,900&family=Work+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:ital,wght@1,900&family=Work+Sans&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;    
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 /* navigation start  */
 
-.nav-section{
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+.nav-section {
+	box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
-nav{
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    
+nav {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
 }
-.nav-icon{
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
+.nav-icon {
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
 }
 .navicon-text {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 45px;
+	font-family: "Work Sans", sans-serif;
+	font-size: 45px;
 }
-.navicon-text span{
-    color: #FF42A5;
+.navicon-text span {
+	color: #ff42a5;
 }
-.nav-icon img{
-    
-    width: 60px;
-    height: 30px;
+.nav-icon img {
+	width: 60px;
+	height: 30px;
 }
-.nav-bar{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: end;
+.nav-bar {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: end;
 }
-.nav-bar a{
-    text-decoration: none;
-    margin-left: 32px;
-    color: black;
-    border: none;
+.nav-bar a {
+	text-decoration: none;
+	margin-left: 32px;
+	color: black;
+	border: none;
 }
-.nav-bar span{
-    display: flex;
-    align-items: center;
-    margin-left: 32px;
-    padding: 10px;
-    width: 30%;
-    justify-content: space-between;
-    border-radius: 5px;
-    border: none;
-    background: rgba(11, 2, 35, 0.10);
-    ;
+.nav-bar span {
+	display: flex;
+	align-items: center;
+	margin-left: 32px;
+	padding: 10px;
+	width: 30%;
+	justify-content: space-between;
+	border-radius: 5px;
+	border: none;
+	background: rgba(11, 2, 35, 0.1);
 }
-.fa-youtube{
-    color: red;
-    font-size: 20px;
+.fa-youtube {
+	color: red;
+	font-size: 20px;
 }
-.nav-bar-btn{
-    border: none;
+.nav-bar-btn {
+	border: none;
 }
 
 /* navsection css is done  */
 
-
 /* banner G.O.A.T start */
-.banner-goat{
-    max-width: 1200px;
-    margin: 50px auto 0;
-    min-height: 300px;
-    display: flex;
-    font-family: 'Work Sans', sans-serif;
+.banner-goat {
+	max-width: 1200px;
+	margin: 50px auto 0;
+	min-height: 300px;
+	display: flex;
+	font-family: "Work Sans", sans-serif;
 }
-.banner-goat-text{
-    font-size: small;
-    width: 50%;
-    justify-content: center;
-    margin: 10% auto;
-    padding: 10px;
-
+.banner-goat-text {
+	font-size: small;
+	width: 50%;
+	justify-content: center;
+	margin: 10% auto;
+	padding: 10px;
 }
-.banner-goat-img img{
-    width: 100%;
-
+.banner-goat-img img {
+	width: 100%;
 }
-.banner-goat-text span{
-    font-size: 85px;
-    font-weight: 800;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    color: transparent;
-    -webkit-background-clip: text;
-
+.banner-goat-text span {
+	font-size: 85px;
+	font-weight: 800;
+	background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+	color: transparent;
+	-webkit-background-clip: text;
 }
-.banner-goat-text h1{
-    font-size: 48px;
-    text-align: left;
+.banner-goat-text h1 {
+	font-size: 48px;
+	text-align: left;
 }
-.banner-goat-text p{
-    margin-top: 10px;
+.banner-goat-text p {
+	margin-top: 10px;
 }
-.btn{
-    padding: 21px 40px;
-    border: none;
-    border-radius: 48px;
-    font-size: 20px;
-    color: white;
+.btn {
+	padding: 21px 40px;
+	border: none;
+	border-radius: 48px;
+	font-size: 20px;
+	color: white;
 }
-.singin{
-    background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    margin-right: 10px;
-    
+.singin {
+	background-image: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+	margin-right: 10px;
 }
-.gorogue{
-    background: #4EC5F7;
+.gorogue {
+	background: #4ec5f7;
 }
-.banner-goat-text .banner-goat-text-btn{
-    margin-top: 40px;
+.banner-goat-text .banner-goat-text-btn {
+	margin-top: 40px;
 }
 
 /* banner G.O.A.T end */
 
-
-
 /* section banner-online-games start */
-.main-1-text-div{
-    border: 2px solid green;
-    margin-top: 5%;
-    /* max-width: 1200px; */
+.main-1-text-div {
+	border: 2px solid green;
+	margin-top: 5%;
+	/* max-width: 1200px; */
 }
-.main-1-text-div p,h1{
-    text-align: center;
+.main-1-text-div p,
+h1 {
+	text-align: center;
 }
-.banner-online-games{
-    position: relative;
-    max-width: 1200px;
-    margin:7% auto;
-    min-height: 200px;
-    
+.banner-online-games {
+	position: relative;
+	max-width: 1200px;
+	margin: 7% auto;
+	min-height: 200px;
 }
 
-                            /* new addd */
-.banner-online-games p{
-    text-align: center;
-} 
-.banner-online-games h1{
-    text-align: center;
-} 
-.online-games-card img{
-    width: 280px;
-    display: block;
+/* new addd */
+.banner-online-games p {
+	text-align: center;
+}
+.banner-online-games h1 {
+	text-align: center;
+}
+.online-games-card img {
+	width: 280px;
+	display: block;
 }
 .online-games-card {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    /* align-content: center; */
-        justify-content: center;
-    
-    
-
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	/* align-content: center; */
+	justify-content: center;
 }
 .online-games-card div p {
-    text-align: left;
-    padding: 10px;
+	text-align: left;
+	padding: 10px;
 }
-.banner-online-games h1{
-    font-size: 48px;
-    margin-bottom: 10px;
+.banner-online-games h1 {
+	font-size: 48px;
+	margin-bottom: 10px;
 }
-.banner-online-games p{
-    font-size: 18px;
-    margin-bottom: 40px;
+.banner-online-games p {
+	font-size: 18px;
+	margin-bottom: 40px;
 }
-.banner-online-games h1 span{
-    background-image:  linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    color: transparent;
-    -webkit-background-clip: text;
+.banner-online-games h1 span {
+	background-image: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+	color: transparent;
+	-webkit-background-clip: text;
 }
 
 /* section banner-online-games end */
 
-
-
-/* Play Instantly,No Downloads  section start  */
-.play-instant{
-    max-width: 1200px;
-    margin: auto;
-    min-height: 300px;
-    display: flex;
-    gap: 50px;
-    font-family: 'Work Sans', sans-serif;
+/* Play Instantly,we are gamer section start  */
+.play-instant {
+	max-width: 1200px;
+	margin: auto;
+	min-height: 300px;
+	display: flex;
+	gap: 50px;
+	font-family: "Work Sans", sans-serif;
 }
-.play-instant-text{
-    width: 50%;
-
+.play-instant-text {
+	width: 50%;
 }
-.play-instant-img{
-    width: 50%;
+.play-instant-img {
+	width: 50%;
 }
-.pic-1 img{
-    width: 100%;
+.pic-1 img {
+	width: 100%;
 }
-.pic-2 img{
-    width: 60%;
-    margin: -50% 0 0 -20% ;
+.pic-2 img {
+	width: 60%;
+	margin: -50% 0 0 -20%;
 }
-.play-instant-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.pic-3 img {
+	width: 60%;
+	margin: -50% 0 0 60%;
 }
-.play-instant-text-left{
-    text-align: right;
+.play-instant-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-.play-instant-text-left h1{
-    text-align: right;
-    font-size: 48px;
-    margin-bottom: 24px;
+.play-instant-text-left {
+	text-align: right;
 }
-.play-instant-text-left h1 .play{
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    color: transparent;
-    -webkit-background-clip: text;
+.play-instant-text-left h1 {
+	text-align: right;
+	font-size: 48px;
+	margin-bottom: 24px;
 }
-.play-instant-text-left h1 .no{
-    color: #0B0223;
-    font-weight: bold;
-    font-size: 45px;
-    
+.play-instant-text-left h1 .play {
+	background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+	color: transparent;
+	-webkit-background-clip: text;
 }
-/* Play Instantly,No Downloads  section end  */
-
+.play-instant-text-left h1 .no {
+	color: #0b0223;
+	font-weight: bold;
+	font-size: 45px;
+}
+.gammer-section-text {
+    text-align: left;
+}
+.gammer-section-text h1{
+    text-align: left;
+}
 
 /* gamaing button start */
 
-.gamming-buton{
-    display: flex;
-    gap: 20px;
+.gamming-buton {
+	display: flex;
+	gap: 20px;
 
-    max-width: 1200px;
-    margin: 7% auto;
-    min-height: 200px;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    
+	max-width: 1200px;
+	margin: 7% auto;
+	min-height: 200px;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 }
 .gamming-buton div button div {
-    gap: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    
+	gap: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
 }
-.gamming-buton div button div img{
-    width: 35px;
+.gamming-buton div button div img {
+	width: 35px;
 }
 .gamming-buton div button {
-    border: none;
-    background: #FFF;
+	border: none;
+	background: #fff;
 }
 
-.gamming-buton div button:hover{
-    border:2px solid #FF42A5;
-    border-radius: 58px;
-    transform: scale(1.08);
-    transition: transform .1s ;
-    color:#FF42A5 ;
-    
-
+.gamming-buton div button:hover {
+	border: 2px solid #ff42a5;
+	border-radius: 58px;
+	transform: scale(1.08);
+	transition: transform 0.1s;
+	color: #ff42a5;
 }
-/* gamaing button end */
-
-
-
 /* footer section start */
 
-
-footer{
-    background: #0B0223;
+footer {
+	background: #0b0223;
 }
-.footer-main-div{
+.footer-main-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	color: white;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    color: white;
-
-    height: 450px;
-
+	height: 450px;
 }
 
-.footer-text{
-
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.footer-text {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
 }
 
-.footer-icon{
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    font-size: 40px;
-
+.footer-icon {
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	font-size: 40px;
 }
-.footer-gamer-text{
-    font-size: 40px;
-    font-weight: bold;
+.footer-gamer-text {
+	font-size: 40px;
+	font-weight: bold;
 }
-.footer-gamer-text span{
-    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    color: transparent;
-background-clip: text;
--webkit-background-clip: text;
-
-
+.footer-gamer-text span {
+	background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
 }
-.footer-dspt{
-    padding: 30px;
-    display: flex;
-    gap: 35px;
+.footer-dspt {
+	padding: 30px;
+	display: flex;
+	gap: 35px;
 }
-.footer-dspt-icon-dwon{
-    display: flex;
-    gap: 15px;
+.footer-dspt-icon-dwon {
+	display: flex;
+	gap: 15px;
 }
 .footer-icon div a i {
-    color: white;
+	color: white;
 }
 /* footer section end */
-
-
-
